@@ -705,7 +705,7 @@ form.addEventListener("submit", function(e){
   e.preventDefault();
   if(!form.checkValidity()){ form.reportValidity(); return; }
 
-  var placeholderAction = form.action.indexOf("YOUR_FORM_ID") !== -1;
+  var placeholderAction = form.action.indexOf("xnpqknzy") !== -1;
   if(placeholderAction){
     // Formspree endpoint hasn't been connected yet; see form__note in the HTML.
     console.warn("Amourly contact form: replace YOUR_FORM_ID in the form's action attribute with your real Formspree form ID.");
